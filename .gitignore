@@ -1,0 +1,62 @@
+# Python bytecode files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Distribution and packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+venv.bak/
+env.bak/
+
+# IDE-specific files
+# JetBrains IDEs (e.g., PyCharm)
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# PyInstaller
+*.spec
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# MyPy
+.mypy_cache/
+
+# Test and coverage
+.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.*
+
+# Database
+*.sqlite3
+
+# Temporary files​⬤
+/gfpganModel/weights/*
+!/gfpganModel/weights/README.md
+/gfpgan/weights/*
+/gfpgan/weights/
+/train/
+/valid/
+/pretrained_models/*
+!/pretrained_models/README.md
